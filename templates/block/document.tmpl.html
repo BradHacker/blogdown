@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ .Meta.Title }}</title>
+  </head>
+  <body>
+    <div class="article-details">
+      <h1>{{ .Meta.Title }}</h1>
+      <h1>{{ .Meta.Description }}</h1>
+    </div>
+    {{ .Children }}
+  </body>
+</html>
